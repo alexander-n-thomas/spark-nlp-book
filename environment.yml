@@ -1,0 +1,11 @@
+name: spark-nlp-in-action
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6.9
+  - pip
+  - notebook
+  - pyspark==2.4.4
+  - pip:
+    - spark-nlp==2.5.1
+    - -r file:colab_requirements.txt
